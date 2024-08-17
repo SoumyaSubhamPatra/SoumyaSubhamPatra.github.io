@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "Cognis Solutions",
+    "startDate": "Jan, 2023",
+    "endDate": "Jan, 2024",
+    "experiences": ["Worked on Angular", "Handle UI/UX"],
+    "imageSrc": "history/cognis.png"
+  },
+  {
+    "role": "Intership",
+    "organisation": "Masai",
+    "startDate": "Jan, 2024",
+    "endDate": "Aug, 2024",
+    "experiences": ["MERN Stack Training"],
+    "imageSrc": "history/masai.png"
+  }
+]
