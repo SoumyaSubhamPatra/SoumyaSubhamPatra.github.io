@@ -1,14 +1,23 @@
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
 import React from "react";
-// import { resume } from "../Hero/resume.pdf";
+import { saveAs } from "file-saver";
 
 export const Hero = () => {
   const handleDownload = () => {
-    const pdfUrl = "resume.pdf";
+    const pdfUrl = "/resume.pdf"; // Adjust the path as needed
+    const pdfName = "SoumyaPatra-Resume.pdf";
 
-    // Open the PDF in a new window
+    // Open PDF in a new window/tab
     window.open(pdfUrl, "_blank");
+
+    // Trigger download
+    fetch(pdfUrl)
+      .then((response) => response.blob())
+      .then((blob) => {
+        saveAs(blob, pdfName);
+      })
+      .catch((error) => console.error("Error downloading the file:", error));
   };
 
   return (
