@@ -1,10 +1,11 @@
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
 import React from "react";
+// import { resume } from "../Hero/resume.pdf";
 
 export const Hero = () => {
   const handleDownload = () => {
-    const pdfUrl = "../../../assets/resume/resume.pdf";
+    const pdfUrl = "resume.pdf";
 
     // Open the PDF in a new window
     window.open(pdfUrl, "_blank");
