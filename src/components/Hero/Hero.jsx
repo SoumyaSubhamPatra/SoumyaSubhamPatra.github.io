@@ -6,7 +6,7 @@ import { saveAs } from "file-saver";
 export const Hero = () => {
   const handleDownload = () => {
     const pdfUrl = "../../../assets/resume/resume.pdf"; // URL or path to your PDF file
-    const pdfName = "downloaded-file.pdf"; // Name of the downloaded file
+    const pdfName = "Soumya-Patra-Resume.pdf"; // Name of the downloaded file
 
     saveAs(pdfUrl, pdfName);
   };
@@ -19,7 +19,6 @@ export const Hero = () => {
           I'm a full-stack developer with NodeJS. Reach out if you'd like to
           learn more!
         </p>
-        <a href="https://drive.google.com/file/d/1N4oa_f2wc6hfkLYtcCNOFEJWwRTPnFBp/view?usp=sharing"></a>
         <button onClick={handleDownload} className={styles.contactBtn}>
           My Resume
         </button>
