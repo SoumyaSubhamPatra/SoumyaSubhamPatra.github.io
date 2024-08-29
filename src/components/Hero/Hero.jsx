@@ -39,7 +39,7 @@ import styles from "./Hero.module.css";
 import React from "react";
 import { saveAs } from "file-saver";
 
-const Hero = () => {
+export const Hero = () => {
   const handleDownload = () => {
     const pdfUrl = "../../../assets/resume/resume.pdf"; // URL or path to your PDF file
     const pdfName = "downloaded-file.pdf"; // Name of the downloaded file
@@ -68,5 +68,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;
