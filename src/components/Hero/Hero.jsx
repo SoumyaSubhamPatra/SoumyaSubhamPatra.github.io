@@ -13,10 +13,10 @@ export const Hero = () => {
           learn more!
         </p>
         <a
-          href="mailto:soumyasubhampatra@email.com"
+          href="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=6676b78942e58acbb8500122"
           className={styles.contactBtn}
         >
-          Contact Me
+          My Resume
         </a>
       </div>
       <img
