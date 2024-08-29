@@ -12,7 +12,7 @@
     "imageSrc": "projects/project.png",
     "description": "Coursera clone is an eLearning platform to benefit learners to learn their preferred subjects and tutors to teach students and earn a passive income.Coursera is a global online learning platform that offers anyone, anywhere, access to online courses and degrees from leading universities and companies",
     "skills": ["JavaScript", "HTML", "CSS", "JSON"],
-    "demo": "https://coursera-clone-masai.netlify.app/m",
+    "demo": "https://coursera-clone-masai.netlify.app/",
     "source": "https://github.com/Mayank1st/Netflix-Ninjas_066"
   },
   {
@@ -20,7 +20,7 @@
     "imageSrc": "projects/project.png",
     "description": "An invoice generator is a tool that helps you create professional invoices quickly and easily. It's like having a personal assistant who takes care of the formatting, calculations, and design for you. With just a few clicks, you can input your business details, services rendered, and payment terms.",
     "skills": ["React", "JavaScript", "HTML", "CSS"],
-    "demo": "https://669e260d7a83610b0ae9d9c6--cute-cuchufli-95daaf.netlify.app/",
+    "demo": "https://payment-tracker-rct104.netlify.app/",
     "source": "https://github.com/SoumyaSubhamPatra/Bill-of-Rights-Backend_031"
   }
 ]
