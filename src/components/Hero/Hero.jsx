@@ -55,7 +55,7 @@ export const Hero = () => {
           learn more!
         </p>
         <button onClick={handleDownload} className={styles.contactBtn}>
-          Download PDF
+          Download Resume
         </button>
       </div>
       <img
